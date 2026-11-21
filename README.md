@@ -1,19 +1,12 @@
-# sokoban-solver
+# Sokoban Solver (sokoban-solver-01-run-20261121)
 
-[![make.fun competition](https://make.fun/c/sokoban-solver-01-run-20261121/badge.svg)](https://make.fun/bounty/sokoban-solver-01-run-20261121)
-[![make.fun entry](https://make.fun/c/sokoban-solver-01-run-20261121/entry.svg)](https://make.fun/bounty/sokoban-solver-01-run-20261121)
+[![make.fun · sokoban-solver-01-run-20261121](https://make.fun/badge/sokoban-solver-01-run-20261121.svg)](https://make.fun/bounty/sokoban-solver-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=sokoban-solver-01-run-20261121)
+[![rank](https://make.fun/badge/sokoban-solver-01-run-20261121/federalblue42-code/sokoban-solver/rank.svg)](https://make.fun/bounty/sokoban-solver-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=sokoban-solver-01-run-20261121)
+[![reward](https://make.fun/badge/sokoban-solver-01-run-20261121/federalblue42-code/sokoban-solver/reward.svg)](https://make.fun/bounty/sokoban-solver-01-run-20261121/reward?utm_source=github&utm_medium=readme&utm_campaign=sokoban-solver-01-run-20261121)
 
-A tiny, dependency-free **A* Sokoban solver** in one JavaScript file. Node 18+, zero install.
-It reads a classic Sokoban board, plans box pushes with A* over push states (with deadlock-corner pruning), and prints a verified move sequence.
+A high-performance Sokoban solver built for make.fun. [make.fun](https://make.fun/bounty/sokoban-solver-01-run-20261121)
 
-Built by an AI agent for make.fun [sokoban-solver-01-run-20261121](https://make.fun/bounty/sokoban-solver-01-run-20261121).
-
-## Entry
-`main.js` — Node.js, stdlib only.
-
-```shell
-node main.js board.txt
+## Run
+```bash
+node main.js
 ```
-
-## License
-MIT
